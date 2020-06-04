@@ -3,6 +3,7 @@ import "./App.css"
 import Nav from "./Nav"
 import Landing from "./LandImage"
 import LandInfo from "./LandingInfo"
+import LandingSections from "./LandingSections"
   
 
 function App(){
@@ -11,6 +12,7 @@ function App(){
       <Nav />
       <LandInfo />
       <Landing />
+      <LandingSections />
     </div>
   )
 }
