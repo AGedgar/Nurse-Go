@@ -2,7 +2,7 @@ import React from "react"
 import imgSection1Land from "./section1Landing.png"
 import imgSection2Land from "./section2Landing.png"
 
-function SectionsLand() {
+function LandSections() {
     return (
         <div>
 
@@ -28,4 +28,4 @@ function SectionsLand() {
     )
 }
 
-export default SectionsLand;
+export default LandSections;

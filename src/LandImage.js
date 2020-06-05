@@ -1,10 +1,11 @@
 import  React from "react";
+import LandInfo  from "./LandingInfo"
 import landImage from "./landImage.jpeg"
 
 function Landing(){
     return(
         <div className="landing">
-            {/* <img src={landImage} alt="" /> */}
+            <LandInfo />
         </div>
         )
 }
