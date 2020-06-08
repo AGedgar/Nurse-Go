@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import LandImage from "./LandImage";
 import LandSections from "./LandingSections"
 import * as serviceWorker from './serviceWorker';
+import Nosotros from './Nosotros';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +28,13 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('landingSections')
 );
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Nosotros />
+  </React.StrictMode>,
+  document.getElementById('nosotros')
+)
 
 
 // If you want your app to work offline and load faster, you can change

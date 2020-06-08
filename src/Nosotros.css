@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+    .container h1{
+        text-align: center!important;
+        background-color: rgb(94, 1, 131);
+        color: white;
+    }
+    form#form-nosotros{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    form#form-nosotros .input{
+        width: 50%;
+    }
+    form#form-nosotros .input label{
+        width: 30%;
+    }
+    form#form-nosotros .input input{
+        width: 70%;
+    }

@@ -5,7 +5,7 @@ function LandInfo(){
     return(
         <div>
         <div className="imgLandInfo">
-            <img src={imgInfo} alt="movil image" width="200px"/>
+            <img src={imgInfo} alt="movil" width="200px"/>
         </div>
         <div className="landInfo">
             <p>BETTER FOR <br/>PACIENTS</p>
