@@ -5,6 +5,7 @@ import "./App.css";
 import Landing from "./Landing";
 import Nosotros from "./Nosotros"
 import Blog from "./Blog";
+import Footer from "./footer"
   
 
 function App(){
@@ -17,6 +18,7 @@ function App(){
           <Route path="/nosotros" component={Nosotros} />
           <Route path="/blog" component={Blog} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   )
