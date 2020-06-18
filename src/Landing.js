@@ -18,8 +18,7 @@ function Landing() {
             </div>
         </div>
         <section className="sections-center">
-                We are a company formed by nursing,<br /> healthcare, and technology<br /> professionals who are constantly<br /> looking for ways to improve the<br /> healthcare system.
-        </section>
+                We are a company formed by nursing,<br /> healthcare, and technology<br /> professionals who are constantly<br /> looking for ways to improve the<br /> healthcare system.        </section>
             <section className="sections-imgInfo">
                 <p>
                     The Go RN Platform is the solution to<br /> meet increased demand for all healthcare<br />facilities<br /><br />
