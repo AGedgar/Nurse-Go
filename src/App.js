@@ -23,7 +23,6 @@ function App(){
 
           <Route path="/signUp" component={Register} />
           <Route path="/ayuda" component={Ayuda} />
-
         </Switch>
         <Footer />
       </div>
