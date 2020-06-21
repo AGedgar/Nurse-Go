@@ -5,6 +5,7 @@ import "./App.css";
 import Landing from "./Landing";
 import Nosotros from "./Nosotros"
 import Blog from "./Blog";
+import Ayuda from "./assets/containers/Ayuda";
   
 
 function App(){
@@ -16,6 +17,7 @@ function App(){
           <Route path="/" exact component={Landing} />
           <Route path="/nosotros" component={Nosotros} />
           <Route path="/blog" component={Blog} />
+          <Route path="/ayuda" component={Ayuda} />
         </Switch>
       </div>
     </Router>
