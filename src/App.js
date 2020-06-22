@@ -5,11 +5,11 @@ import "./App.css";
 import Landing from "./Landing";
 import Nosotros from "./Nosotros"
 import Blog from "./Blog";
-
+import Login from "./Login"
 import Register from "./Register"
 import Footer from "./footer"
 
-import Ayuda from "./assets/containers/Ayuda";
+import Search from "./components/ayuda/Search"
 
 function App(){
   return(
@@ -20,9 +20,9 @@ function App(){
           <Route path="/" exact component={Landing} />
           <Route path="/nosotros" component={Nosotros} />
           <Route path="/blog" component={Blog} />
-
+          <Route path="/login" component={Login}/>
           <Route path="/signUp" component={Register} />
-          <Route path="/ayuda" component={Ayuda} />
+          <Route path="/ayuda" component={Search} />
         </Switch>
         <Footer />
       </div>

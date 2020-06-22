@@ -11,7 +11,7 @@ function Nav(){
             <ol><Link to ="/blog">Blog</Link></ol>
             <ol><Link to = "/ayuda">Ayuda</Link></ol>
             <ol><Link to = "/contacto">Contacto</Link></ol>
-            <ol><Link to = "/loggin">Inicia Sesión</Link></ol>
+            <ol><Link to = "/login">Inicia Sesión</Link></ol>
             <ol><Link to = "/signUp">Registrate</Link></ol>
             </div>
         </div>

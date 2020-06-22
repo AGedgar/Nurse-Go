@@ -26,7 +26,7 @@ function Register(){
             <input type="text" name="tel" id=""/>
             <label htmlFor="type">Registrarse como:</label>    
             <select name="type" id="">
-                <option value="User">Usuario</option>
+                <option value="User">Paciente</option>
                 <option value="Nurse">Enfermera(o)</option>
             </select>
             </div>
