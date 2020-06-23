@@ -1,8 +1,10 @@
 import React from "react"
-import landImage from "./landImage.jpeg"
-import imgInfo from "./imgLandInfo.png"
-import imgSection1Land from "./section1Landing.png"
-import imgSection2Land from "./section2Landing.png"
+import imgInfo from "../../assets/static/imgLandInfo.png"
+// import LandImage from "../../assets/static/landImage.jpeg"
+import imgSection1Land from "../../assets/static/section1Landing.png"
+import imgSection2Land from "../../assets/static/section2Landing.png"
+import "../../assets/styles/components/Landing.css"
+
 
 
 function Landing() {

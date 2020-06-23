@@ -1,6 +1,6 @@
 import React from "react"
-import "./Register.css"
-import RegisterImage from "./register.jpg"
+import "../../assets/styles/components/Register.css"
+import RegisterImage from "../../assets/static/register.jpg"
 
 function Register(){
     return(

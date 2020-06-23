@@ -1,15 +1,14 @@
 import React from "react";
 import  {BrowserRouter as Router, Switch, Route}  from "react-router-dom";
-import Nav from "./Nav";
-import "./App.css";
-import Landing from "./Landing";
-import Nosotros from "./Nosotros"
-import Blog from "./Blog";
-import Login from "./Login"
-import Register from "./Register"
-import Footer from "./footer"
+import Nav from "../components/Nav/Nav";
+import Landing from "../components/landing/Landing";
+import Nosotros from "../Nosotros"
+import Blog from "../components/Blog/Blog";
+import Login from "../components/Login/Login"
+import Register from "../components/Register/Register"
+import Footer from "../components/Footer/footer"
 
-import Search from "./components/ayuda/Search"
+import Search from "../components/ayuda/Search"
 
 function App(){
   return(

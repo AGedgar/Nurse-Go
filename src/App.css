@@ -5,31 +5,10 @@
 /* .containerNav{
   left: 35%;
 } */
-.nav{
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 30px;
-  font-size:22px;
-  background-color: #282a31;
-}
 
-.nav a{
-  text-decoration: none;
-  color: rgb(247, 243, 243);
-}
-
-.nav a:hover{
-  color: grey;
-}
-
-ol{
-  margin-right: 30px;
-}
 
 .landing{
-  background-image: url(./landImage.jpeg);
+  background-image: url(./assets/static/landImage.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
