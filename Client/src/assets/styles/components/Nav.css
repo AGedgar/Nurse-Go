@@ -1,0 +1,22 @@
+.nav{
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    font-size:22px;
+    background-color: #282a31;
+  }
+  
+  .nav a{
+    text-decoration: none;
+    color: rgb(247, 243, 243);
+  }
+  
+  .nav a:hover{
+    color: grey;
+  }
+  
+  ol{
+    margin-right: 30px;
+  }
