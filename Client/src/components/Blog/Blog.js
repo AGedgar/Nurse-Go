@@ -18,10 +18,7 @@ function Blog() {
         fetch("api/news")
         .then(res => res.json())
         .then(news => setNews({news : news}))
-    //    const data = await fetch("/api/news")
-    //    const newData  = await data.json()
-    //      console.log(typeof(newData[0].id))
-    //    setNews({newData})
+    
     }
     console.log(news.news)
      console.log(news.news.map(obj => console.log("hola",obj)))
