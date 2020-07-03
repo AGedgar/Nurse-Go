@@ -6,7 +6,16 @@
     left: 35%;
   } */
   
-  
+  /*
+  .landing{
+    background-image: url(../../static/landImage.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+  }
+  */
   .landing{
     background-image: url(../../static/landImage.jpeg);
     background-position: center;
